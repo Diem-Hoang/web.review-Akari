@@ -1,0 +1,82 @@
+html,body
+{
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    color: red;
+    margin: 0;
+}
+.createpost-content
+{
+    width: 90%;
+    max-width: 80%;
+    padding: 10px;
+    margin: 40px;  
+    position: relative;
+    border: 1px solid blue;
+    border-radius: 5px;
+    background-color: #fff;
+    top:0;
+    left:0;
+    right:0;							
+}
+.input{
+   width: 80%;
+}
+
+.row {
+
+    display: block;
+  
+    padding: 7px 8px;
+  
+    margin-bottom: 7px;
+  
+  }
+.name-input{
+    display: inline-block;
+  
+    font-size: 1.2em;
+  
+    font-weight: bold;
+    padding: 0;
+    width: 150px;
+  
+    color: #464646;
+  
+    vertical-align: top;
+  
+  }
+form .req { color: #ca5354; }
+.choose-input{
+display: inline-block;
+width: 100px;
+}
+input[type=radio] {
+   width: 20px;
+   height: 20px;
+}
+.option-content{
+font-weight: normal;
+font-size: 16px;
+}
+.button{
+  float: right;
+  padding: 6px 10px;
+  color: #fff;
+  background-color: rgb(0, 217, 255);
+  border: none;
+  cursor: pointer;
+}
+.row::after{
+  display: block;
+  content: "";
+  clear: both;
+}
+.row .form-message{
+  color: red;
+  font-size: 10px;
+  margin-left: 150px;
+}
